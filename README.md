@@ -6,7 +6,7 @@
 
 ##  Features
 
-* **Cinematic Intro:** 6-second fullscreen portrait video splash screen with instant tap-to-skip functionality and hidden system bars.
+* **Cinematic Intro:** 6-second fullscreen portrait video splash screen.
 * **Locked Portrait Orientation:** Optimized strictly for single-handed vertical smartphone gameplay.
 * **Dynamic Canvas Timer:** Custom 90-second inward-filling spiral timer rendered dynamically on canvas.
 * **Tactical Time Mechanics:**
