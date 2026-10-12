@@ -1,43 +1,47 @@
---
-## 1. Privacy Policy
+Overview
+SAICO Word Guess ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and safeguard your information when you use our mobile application (Native Android).
 
-**Effective Date:** October 12, 2026  
-**Last Updated:** October 12, 2026  
+Information We Collect
+1. Account & Authentication Data
+When you log in using Google Sign-In via Firebase Authentication and Google Credential Manager, we collect:
 
-### Overview
-**SAICO Word Guess** ("we", "our", or "us") respects your privacy. This Privacy Policy describes how we collect, use, and handle data when you play our mobile application on Android devices.
+Email Address: Used for account authentication and verifying eligibility for university-restricted leaderboards (@sastra.ac.in).
 
-### Information We Collect
+Display Name: Derived from your Google account to represent you on public leaderboards.
 
-1. **Authentication & Identity Data:**
-   * **Email Address:** When signing in via **Google Sign-In** (powered by Firebase Auth and Google Credential Manager), we process your email address. This is used exclusively to verify eligibility for SASTRA University campus leaderboards (`@sastra.ac.in`).
-   * **Display Name:** Derived from your Google account to identify your score on the public campus leaderboard.
+2. Gameplay & Performance Data
+Scores & Timestamps: We track cumulative scores, puzzle completion status, and time penalties/bonuses to update game progress and leaderboard standings.
 
-2. **Gameplay & Analytics Data:**
-   * **Scores, Time Penalties, and Timestamps:** We store your accumulated points, game activity timestamps, and performance metrics in the **Firebase Realtime Database** to maintain leaderboard integrity.
+3. Guest Mode Data
+If you choose Guest Mode, no personally identifiable information (PII) is linked to an account or stored on our external databases. High scores in Guest Mode remain local to your device.
 
-3. **Guest Mode Data:**
-   * Players using **Guest Mode** can play without providing any personally identifiable information (PII). Scores recorded in Guest Mode are saved locally on the device and are **not** submitted to the cloud leaderboard.
+How We Use Your Data
+Leaderboard Verification: We verify if your email domain ends with @sastra.ac.in to allow participation in official SASTRA University campus rankings.
 
-### How We Use Your Information
+Game State Synchronization: Scores and cumulative stats are stored securely in Firebase Realtime Database.
 
-* **Campus Verification:** To verify that the user belongs to SASTRA University (`@sastra.ac.in`) before accepting scores onto the restricted campus leaderboard.
-* **Leaderboard Display:** To rank player performance publicly.
-* **App Performance:** To fetch dynamic game puzzles from cloud storage (with offline local fallback support).
+App Functionality: To fetch game puzzles dynamically from cloud sources with offline fallbacks.
 
-### Data Privacy & Visibility
+Public Data Visibility & Privacy
+Leaderboard Privacy: Your email address is never displayed publicly. Only your public Display Name and score are visible to other users on the leaderboard.
 
-* **Email Protection:** Your email address is **never displayed publicly** on the leaderboard. Only your derived Display Name and numerical score are visible to other players.
-* **Third-Party Data Sharing:** We do **not** sell, rent, or commercialize your personal information. Data is transmitted securely and exclusively processed by Google Cloud / Firebase backend infrastructure.
+Data Sharing: We do not sell, rent, or trade user data to third parties. Data is processed exclusively via Google Cloud / Firebase services for core gameplay functionality.
 
-### Third-Party Services
-The app uses trusted third-party services provided by Google LLC:
-* [Firebase Authentication](https://firebase.google.com/products/auth)
-* [Firebase Realtime Database](https://firebase.google.com/products/database)
-* [Google Credential Manager](https://developer.android.com/identity/sign-in/credential-manager)
+Third-Party Services
+Our app integrates the following Google Cloud and Firebase services governed by Google’s Privacy Policy:
 
-### Data Retention and Deletion Requests
-* **Retention:** Account information and high scores are retained as long as the application leaderboard remains active.
-* **Account & Data Deletion:** Users may request complete removal of their stored profile and leaderboard entries by submitting a deletion request through the **Profile Screen** in the app or by emailing the developer contact provided below.
+Firebase Authentication & Google Credential Manager: For user authentication.
 
----
+Firebase Realtime Database: For leaderboard management and gameplay score persistence.
+
+Data Retention & Account Deletion
+Retention: Authenticated user profile data and scores are retained as long as your account remains active.
+
+Data Deletion: You may request account and data deletion at any time by contacting us via the email provided in the app’s Profile screen or by using the deletion mechanism inside the app settings.
+
+Contact Us
+For any privacy concerns or queries regarding data handling:
+
+Developer Contact: SAICO Development Team
+
+Support Email: [Insert Developer Contact Email Here]
