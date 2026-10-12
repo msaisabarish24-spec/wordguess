@@ -1,19 +1,19 @@
-# SAICO Word Guess 🧩⚡
+# SAICO Word Guess 
 
 **SAICO Word Guess** is a fast-paced native Android word-puzzle game built using **Kotlin/Java**. Players race against an inward-filling 90-second spiral countdown timer to guess words using dynamic hints fetched from cloud storage. It features seamless offline fallbacks, Google Sign-In with Firebase Auth, and an exclusive verified campus leaderboard for **SASTRA University** (`@sastra.ac.in`) students.
 
 ---
 
-## 🌟 Features
+##  Features
 
-* **Cinematic Intro:** 6-second fullscreen portrait video splash screen (`saico_word_guess_intro_6s.mp4`) with instant tap-to-skip functionality and hidden system bars.
+* **Cinematic Intro:** 6-second fullscreen portrait video splash screen with instant tap-to-skip functionality and hidden system bars.
 * **Locked Portrait Orientation:** Optimized strictly for single-handed vertical smartphone gameplay.
 * **Dynamic Canvas Timer:** Custom 90-second inward-filling spiral timer rendered dynamically on canvas.
 * **Tactical Time Mechanics:**
-  * 🟢 **Correct Guess:** Adds **+20 seconds**.
-  * 🔴 **Wrong Guess:** Penalizes **-15 seconds**.
-  * 🟡 **Skip Word:** Moves to the next puzzle with a **-10 seconds** penalty.
-  * ⛔ **Smart Input:** Guess button automatically disables when the input box is empty.
+  *  **Correct Guess:** Adds **+20 seconds**.
+  *  **Wrong Guess:** Penalizes **-15 seconds**.
+  *  **Skip Word:** Moves to the next puzzle with a **-10 seconds** penalty.
+  *  **Smart Input:** Guess button automatically disables when the input box is empty.
 * **Cloud & Offline Sync:** Dynamically fetches puzzles and hints from cloud spreadsheets with local offline fallbacks.
 * **Authentication Options:**
   * **Google Sign-In:** Secure authentication using Google Credential Manager & Firebase Auth.
@@ -25,7 +25,7 @@
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+##  Tech Stack & Architecture
 
 * **Language:** Kotlin / Java
 * **UI Framework:** Android Native Layouts (XML) with custom Canvas drawing
@@ -35,7 +35,7 @@
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 SAICO-Word-Guess/
@@ -57,7 +57,7 @@ SAICO-Word-Guess/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 * **Android Studio:** Ladybug (2024.2.1) or newer recommended.
@@ -83,7 +83,7 @@ SAICO-Word-Guess/
 
 ---
 
-## 📋 Rules & Game Mechanics Summary
+##  Rules & Game Mechanics Summary
 
 | Action | Result / Impact |
 | :--- | :--- |
@@ -95,9 +95,9 @@ SAICO-Word-Guess/
 
 ---
 
-## 📜 Privacy & Play Store Documentation
+##  Privacy & Play Store Documentation
 
-A complete, Play Store-compliant **Privacy Policy** and **Data Safety Specification** can be found in [PRIVACY_POLICY.md](./PRIVACY_POLICY.md) (or within the app's Profile Screen).
+A complete, Play Store-compliant **Privacy Policy** and **Data Safety Specification** can be found in [PRIVACY_POLICY.md](./privacypolicy.md) (or within the app's Profile Screen).
 
 ---
 
