@@ -33,7 +33,6 @@
 The app uses trusted third-party services provided by Google LLC:
 * [Firebase Authentication](https://firebase.google.com/products/auth)
 * [Firebase Realtime Database](https://firebase.google.com/products/database)
-* [Google Credential Manager](https://developer.android.com/identity/sign-in/credential-manager)
 
 ### Data Retention and Deletion Requests
 * **Retention:** Account information and high scores are retained as long as the application leaderboard remains active.
